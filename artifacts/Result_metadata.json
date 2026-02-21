@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num_",
+						"type": "uint256"
+					}
+				],
+				"name": "setResult",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SSConect/result.sol": "Result"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SSConect/result.sol": {
+			"keccak256": "0x35f973e6db8f07f4bc5de31259a5e9ca1b52b60359aede55775983683e45b854",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://445fcbf20e1b8a0d71d5bbf40013ae0ae4761edd99bbedbfcffd6f4a01eaca90",
+				"dweb:/ipfs/QmV9zxx5cjtpPvnRaf87Mr8ttZbG8p5khXPT8jxVgJN1xv"
+			]
+		}
+	},
+	"version": 1
+}
