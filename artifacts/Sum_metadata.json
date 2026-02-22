@@ -33,6 +33,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -63,19 +76,19 @@
 	},
 	"sources": {
 		"SSConect/interface/IResult.sol": {
-			"keccak256": "0x4c97c92420d365400f8a3dfde6fb1f6030a127228d6c4e955b51a8f8814eb9e9",
+			"keccak256": "0x70894d64bb2ae74a65ec768d46b427a061ea814db644b8e26a37062fde4e6afe",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e909eb3c929eb992fe8acfd8ef12b6a11fdd980543dcd3183caa2a2a87d9ff34",
-				"dweb:/ipfs/QmW3NP9LvfGFstYisp5emrZaLaETRi1oQiaAhzZwpSEte7"
+				"bzz-raw://1aef9a089aeff94faf6d0c45278ca35bc5a624a713793802e34aecae2ee63432",
+				"dweb:/ipfs/QmQAY6cGD5ovTpXaqMEgitu6jtuHKJUdG5pMvdjti98Yfi"
 			]
 		},
 		"SSConect/sum.sol": {
-			"keccak256": "0xd643b96221d21ef98fcce9ddd8fb56c3fd9951bb66c2c71fffbb3919eeace1dc",
+			"keccak256": "0xdb4b29836e9c7c032ffc96015d41d045f8895bc17286bdc0fae41c1c0c1f2656",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://26bd19d84fdfca657142bfce130445e354da5a4d6a587fd0d34a3b097c143acd",
-				"dweb:/ipfs/QmRz52931ir2crqLWic2rvvTkYwrshwvJop3wRwvKj58km"
+				"bzz-raw://c9111ef35a5b0dd2c35bcea699e07b00a1d46a0d876e61ccb66f28ce5ab44540",
+				"dweb:/ipfs/QmZvdwvQUA7ANbDoaju2y6hYK7hx17EcR6vgpp4uV2Afv2"
 			]
 		}
 	},

@@ -7,6 +7,7 @@ import "./interface/IResult.sol";
 contract Sum {
     address result;
 
+
     constructor(address result_) {
         result = result_;
     }
@@ -14,5 +15,9 @@ contract Sum {
     function addition(uint256 num1_, uint256 num2_) external {
         uint256 result_ = num1_ + num2_;
         IResult(result).setResult(result_);
+    }
+
+    function setFee(uint256 newFee_) external {
+        IResult(result).setFee(newFee_);
     }
 }

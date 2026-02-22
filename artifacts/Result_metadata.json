@@ -6,6 +6,43 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "admin_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "result",
 				"outputs": [
@@ -16,6 +53,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newfee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -60,11 +110,11 @@
 	},
 	"sources": {
 		"SSConect/result.sol": {
-			"keccak256": "0x35f973e6db8f07f4bc5de31259a5e9ca1b52b60359aede55775983683e45b854",
+			"keccak256": "0xff151a289ef07f11992950f81fa78e2e42a535a77656012b10d589239ad43fb8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://445fcbf20e1b8a0d71d5bbf40013ae0ae4761edd99bbedbfcffd6f4a01eaca90",
-				"dweb:/ipfs/QmV9zxx5cjtpPvnRaf87Mr8ttZbG8p5khXPT8jxVgJN1xv"
+				"bzz-raw://78341d39557d1bbf40744a4a35de92f9252493b1b7ca34a3cde918129948212e",
+				"dweb:/ipfs/QmeDUe8QwSxaVFUg1Cziuztip2MLYHnMtKuYpknqtAEzaW"
 			]
 		}
 	},
