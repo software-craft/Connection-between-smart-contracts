@@ -44,7 +44,11 @@
 	},
 	"settings": {
 		"compilationTarget": {
+<<<<<<< HEAD
 			"SSConect/validators/RequireTest.sol": "RequireTest"
+=======
+			"SSConect/checks/checkTest.sol": "RequireTest"
+>>>>>>> 4ad59c64a8e746dc98e442e509ef2ed589c4bf51
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -58,12 +62,21 @@
 		"remappings": []
 	},
 	"sources": {
+<<<<<<< HEAD
 		"SSConect/validators/RequireTest.sol": {
 			"keccak256": "0x7aa3ce082e6a45d348f0504940af9d48c44513a8396a6f3358c88effd84e60df",
 			"license": "GPL-3.0",
 			"urls": [
 				"bzz-raw://0c38016078cf876278e0b8f078a446e02ad4dac14ad164091535b2f3ad76c935",
 				"dweb:/ipfs/QmPPHuy2quE7HXT3JfiwvPnsfi7dufAD51jp7WFFkZPep6"
+=======
+		"SSConect/checks/checkTest.sol": {
+			"keccak256": "0xd250112dd5fa4ea541b505097334c16bda4445e69ccbde9622e0a7a1c0bb50b4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4ebfc4afeead0861c4c537d3bf217d0cb7c62efd0f6529e8d88261f9e502493e",
+				"dweb:/ipfs/QmNkwd5yaLUVAFe42Kr1QFZ98jNNifbBr2vPsjcUuvs9HG"
+>>>>>>> 4ad59c64a8e746dc98e442e509ef2ed589c4bf51
 			]
 		}
 	},
