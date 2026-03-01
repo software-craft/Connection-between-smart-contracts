@@ -8,24 +8,24 @@ Este proyecto demuestra diferentes patrones de interacción entre contratos inte
 
 CONNECTION-BETWEEN-SMART-CONTRACTS/
 ├── states/
-│ └── vm-prague/ # Configuración para pruebas con EVM Prague
-│ ├── state.json
-│ └── artifacts/
+│   └── vm-prague/                   
+│       ├── state.json
+│       └── artifacts/
 ├── checks/
-│ └── checkTest.sol # Archivo de pruebas de validación
+│   └── checkTest.sol                 
 ├── peyablefunction/
-│ ├── payablecontractv2.sol # Contrato payable con retiro de fondos
-│ └── peyablesmartcontract.sol # Contrato payable básico
-├── SSConnect/ # Módulo de interacción entre contratos
-│ ├── checks/
-│ │ └── checkTest.sol # Pruebas adicionales
-│ ├── interface/
-│ │ └── IResult.sol # Interfaz para el contrato Result
-│ ├── validators/
-│ │ ├── result.sol # Almacena resultados y tarifas
-│ │ └── sum.sol # Realiza sumas y actualiza Result
-├── LICENSE # Licencia GPL-3.0
-└── README.md # Este archivo
+│   ├── payablecontract2.sol           
+│   └── peyablesmartcontract.sol       
+├── SSConnect/                          
+│   ├── checks/
+│   │   └── checkTest.sol               
+│   ├── interface/
+│   │   └── IResult.sol                  
+│   ├── validators/
+│   │   ├── result.sol                    
+│   │   └── sum.sol                        
+├── LICENSE                              
+└── README.md
 
 ---
 
