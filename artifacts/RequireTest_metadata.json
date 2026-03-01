@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "admin_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "checkAdmin",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAdminRequire",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SSConect/validators/RequireTest.sol": "RequireTest"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SSConect/validators/RequireTest.sol": {
+			"keccak256": "0x7aa3ce082e6a45d348f0504940af9d48c44513a8396a6f3358c88effd84e60df",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0c38016078cf876278e0b8f078a446e02ad4dac14ad164091535b2f3ad76c935",
+				"dweb:/ipfs/QmPPHuy2quE7HXT3JfiwvPnsfi7dufAD51jp7WFFkZPep6"
+			]
+		}
+	},
+	"version": 1
+}

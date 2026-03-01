@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "result_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "addition",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SSConect/sum.sol": "Sum"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SSConect/interface/IResult.sol": {
+			"keccak256": "0x70894d64bb2ae74a65ec768d46b427a061ea814db644b8e26a37062fde4e6afe",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1aef9a089aeff94faf6d0c45278ca35bc5a624a713793802e34aecae2ee63432",
+				"dweb:/ipfs/QmQAY6cGD5ovTpXaqMEgitu6jtuHKJUdG5pMvdjti98Yfi"
+			]
+		},
+		"SSConect/sum.sol": {
+			"keccak256": "0xdb4b29836e9c7c032ffc96015d41d045f8895bc17286bdc0fae41c1c0c1f2656",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c9111ef35a5b0dd2c35bcea699e07b00a1d46a0d876e61ccb66f28ce5ab44540",
+				"dweb:/ipfs/QmZvdwvQUA7ANbDoaju2y6hYK7hx17EcR6vgpp4uV2Afv2"
+			]
+		}
+	},
+	"version": 1
+}
