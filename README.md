@@ -4,31 +4,6 @@ This project demonstrates different interaction patterns between smart contracts
 
 ---
 
-## 📁 Project Structure
-
-CONNECTION-BETWEEN-SMART-CONTRACTS/
-├── states/
-│   └── vm-prague/                   
-│       ├── state.json
-│       └── artifacts/
-├── checks/
-│   └── checkTest.sol                 
-├── peyablefunction/
-│   ├── payablecontract2.sol           
-│   └── peyablesmartcontract.sol       
-├── SSConnect/                          
-│   ├── checks/
-│   │   └── checkTest.sol               
-│   ├── interface/
-│   │   └── IResult.sol                  
-│   ├── validators/
-│   │   ├── result.sol                    
-│   │   └── sum.sol                        
-├── LICENSE                              
-└── README.md
-
----
-
 ## ⚙️ Smart Contracts
 
 ### 1. `RequireTest` (multiple versions)

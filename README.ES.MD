@@ -4,31 +4,6 @@ Este proyecto demuestra diferentes patrones de interacción entre contratos inte
 
 ---
 
-## 📁 Estructura del Proyecto
-
-CONNECTION-BETWEEN-SMART-CONTRACTS/
-├── states/
-│   └── vm-prague/                   
-│       ├── state.json
-│       └── artifacts/
-├── checks/
-│   └── checkTest.sol                 
-├── peyablefunction/
-│   ├── payablecontract2.sol           
-│   └── peyablesmartcontract.sol       
-├── SSConnect/                          
-│   ├── checks/
-│   │   └── checkTest.sol               
-│   ├── interface/
-│   │   └── IResult.sol                  
-│   ├── validators/
-│   │   ├── result.sol                    
-│   │   └── sum.sol                        
-├── LICENSE                              
-└── README.md
-
----
-
 ## ⚙️ Contratos Inteligentes
 
 ### 1. `RequireTest` (múltiples versiones)
